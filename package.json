@@ -20,6 +20,7 @@
   ],
   "devDependencies": {
     "cssnano": "^4.1.10",
+    "parcel": "^1.12.4",
     "typescript": "^3.8.3"
   }
 }
