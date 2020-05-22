@@ -1,7 +1,7 @@
 import { b, SFC, Link } from "baahu";
 
 export const Navbar: SFC = () => (
-  <nav>
+  <nav class="navbar">
     <a>BaahuCloud</a>
 
     <Link to="/">
