@@ -1,13 +1,18 @@
-import { b, SFC, linkTo, Link } from "baahu";
+import { b, SFC, Link } from "baahu";
 
 export const Navbar: SFC = () => (
   <nav>
     <a>BaahuCloud</a>
-    <a onClick={() => linkTo("/")}>search</a>
+
+    <Link to="/">
+      <p>search</p>
+    </Link>
     <Link to="/account">
       <p>account</p>
     </Link>
 
-    <a onClick={() => linkTo("/song")}>song</a>
+    <Link to="/song">
+      <p>song</p>
+    </Link>
   </nav>
 );
