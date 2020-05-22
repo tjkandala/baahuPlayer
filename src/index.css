@@ -1,0 +1,22 @@
+.navbar {
+}
+
+.player {
+  border: 1px solid black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.playerHidden {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.searchResult {
+}
+
+.commentInput {
+}

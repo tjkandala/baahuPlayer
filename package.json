@@ -1,0 +1,25 @@
+{
+  "name": "todo-baahu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "npm run cleanup && parcel build index.html",
+    "cleanup": "rm -rf .cache dist"
+  },
+  "keywords": [],
+  "author": "TJ Kandala",
+  "license": "ISC",
+  "dependencies": {
+    "baahu": "0.16.2"
+  },
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "typescript": "^3.8.3"
+  }
+}
